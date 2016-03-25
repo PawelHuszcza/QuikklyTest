@@ -101,7 +101,6 @@ public class AnagramGameImpl implements AnagramGame {
 				Collections.sort(list, comparator);
 				truncateToMax(list);
 			}
-			System.out.println("Size " + list.size());
 		} finally {
 			
 			lock.writeLock().unlock();
